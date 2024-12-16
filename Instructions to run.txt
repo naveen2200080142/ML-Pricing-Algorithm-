@@ -1,0 +1,53 @@
+Instructions to run:
+-------------------------------------------
+There is 4 Jupiter notebook in this folder
+ ----> "Complete_ML_Pricing_Algorithm.ipynb"
+----->"ML_Pricing_Algorithm_Part1.ipynb"
+----->"ML_Pricing_Algorithm_Part2.ipynb"
+----->"ML_Pricing_Algorithm_Part3.ipynb"
+
+>>>>>>>>>          you can open     Complete_ML_Pricing_Algorithm.ipynb         <<<<<<<<<<<<<<<
+
+if you want parts wise , you can run them individually
+The notebook contains the following keys:
+
+nbformat and nbformat_minor: These indicate the Jupyter Notebook version.
+metadata: Metadata about the notebook.
+cells: The main content of the notebook (code, markdown, outputs).
+I'll now inspect the cells section to determine the structure and provide instructions for running the code. ​​
+
+The notebook begins with markdown descriptions and contains code cells focused on scraping and analyzing restaurant data. Here's a brief overview of the first few cells:
+
+Markdown: Introduces the first task to find the lowest local price and gather data from a specific restaurant using Yelp.
+Markdown: Lists the specific details to be retrieved (e.g., name, address, menu items, prices).
+Code: Imports required libraries like requests, pandas, BeautifulSoup, and json.
+Code: Defines a function to fetch the restaurant's name from a URL.
+Code: Retrieves address details using an API key (a placeholder for YOUR_OPENWEATHER_API_KEY is included).
+Instructions for Running the Notebook
+Set Up the Environment:
+
+Install the required libraries if they are not already available:
+
+>>>pip install requests pandas beautifulsoup4
+Ensure you have Python installed with Jupyter Notebook support:
+
+>>>pip install notebook
+API Keys:
+
+Replace placeholder API keys (e.g., YOUR_OPENWEATHER_API_KEY) with valid keys from the respective service providers.
+Open the Notebook:
+
+Launch the Jupyter Notebook interface:
+
+>>>jupyter notebook
+Navigate to the directory containing the .ipynb file and open it.
+Execute Cells:
+
+Run the notebook cell by cell to ensure sequential execution:
+Click on the first cell and press Shift + Enter to execute.
+Verify that each cell runs without errors before proceeding to the next.
+Verify Outputs:
+
+Check for successful data retrieval and processing at each step.
+If you encounter issues (e.g., failed requests or invalid API responses), debug based on the error messages.
+Let me know if you'd like detailed guidance on any specific part of the notebook or its setup.
